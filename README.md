@@ -32,3 +32,7 @@ map:
                 - -38
 ```
 **フォーマットを間違えるとエラーが出ます。**
+
+# 依存関係
+
+<a href="https://github.com/Vecnavium/FormsUI">Vecnavium/FormsUI</a>
