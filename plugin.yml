@@ -1,0 +1,17 @@
+---
+name: Teleporter
+version: 0.0.1
+main: Hashibutogarasu\Teleporter\Main
+api: 4.10.0
+
+commands:
+  teleportui:
+    description: Show teleport UI
+    usage: "/teleportui"
+    permission: exampleplugin.command.example
+
+permissions:
+  exampleplugin.command.example:
+    description: "Allows the user to run the example command"
+    default: true
+...

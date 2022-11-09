@@ -1,0 +1,547 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ead518a48056d410724257b5ccaec6ed",
+    "packages": [
+        {
+            "name": "adhocore/json-comment",
+            "version": "v0.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adhocore/php-json-comment.git",
+                "reference": "135356c7e7336ef59924f1d921c770045f937a76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adhocore/php-json-comment/zipball/135356c7e7336ef59924f1d921c770045f937a76",
+                "reference": "135356c7e7336ef59924f1d921c770045f937a76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ahc\\Json\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jitendra Adhikari",
+                    "email": "jiten.adhikary@gmail.com"
+                }
+            ],
+            "description": "Lightweight JSON comment stripper library for PHP",
+            "keywords": [
+                "comment",
+                "json",
+                "strip-comment"
+            ],
+            "support": {
+                "issues": "https://github.com/adhocore/php-json-comment/issues",
+                "source": "https://github.com/adhocore/php-json-comment/tree/v0.0.7"
+            },
+            "time": "2018-08-01T12:27:26+00:00"
+        },
+        {
+            "name": "daverandom/callback-validator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaveRandom/CallbackValidator.git",
+                "reference": "d87a08cddbc6099816ed01e50ce25cdfc43b542f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaveRandom/CallbackValidator/zipball/d87a08cddbc6099816ed01e50ce25cdfc43b542f",
+                "reference": "d87a08cddbc6099816ed01e50ce25cdfc43b542f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-reflection": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DaveRandom\\CallbackValidator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Wright",
+                    "email": "cw@daverandom.com"
+                }
+            ],
+            "description": "Tools for validating callback signatures",
+            "support": {
+                "issues": "https://github.com/DaveRandom/CallbackValidator/issues",
+                "source": "https://github.com/DaveRandom/CallbackValidator/tree/master"
+            },
+            "time": "2017-04-03T15:22:41+00:00"
+        },
+        {
+            "name": "fgrosse/phpasn1",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fgrosse/PHPASN1.git",
+                "reference": "973b5f437221e477486cdd33f1d693fd68446df6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fgrosse/PHPASN1/zipball/973b5f437221e477486cdd33f1d693fd68446df6",
+                "reference": "973b5f437221e477486cdd33f1d693fd68446df6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.3",
+                "satooshi/php-coveralls": "^1.0|^2.0"
+            },
+            "suggest": {
+                "php-curl": "For loading OID information from the web if they have not bee defined statically"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FG\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Friedrich Große",
+                    "email": "friedrich.grosse@gmail.com",
+                    "homepage": "https://github.com/FGrosse",
+                    "role": "Author"
+                },
+                {
+                    "name": "All contributors",
+                    "homepage": "https://github.com/FGrosse/PHPASN1/contributors"
+                }
+            ],
+            "description": "A PHP Framework that allows you to encode and decode arbitrary ASN.1 structures using the ITU-T X.690 Encoding Rules.",
+            "homepage": "https://github.com/FGrosse/PHPASN1",
+            "keywords": [
+                "DER",
+                "asn.1",
+                "asn1",
+                "ber",
+                "binary",
+                "decoding",
+                "encoding",
+                "x.509",
+                "x.690",
+                "x509",
+                "x690"
+            ],
+            "support": {
+                "issues": "https://github.com/fgrosse/PHPASN1/issues",
+                "source": "https://github.com/fgrosse/PHPASN1/tree/2.0"
+            },
+            "time": "2018-12-02T01:31:57+00:00"
+        },
+        {
+            "name": "ghostlymc/g-forms",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GhostlyMC/G-Forms",
+                "reference": "ecbf8b25dbd9e672605cbbca4f7683f0da935be5"
+            },
+            "require-dev": {
+                "pocketmine/pocketmine-mp": ">=3.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ghostlymc\\forms\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "zOmArRD",
+                    "email": "omar@ghostlymc.live"
+                }
+            ],
+            "description": "FormAPI for GhostlyMC",
+            "time": "2022-10-26T15:53:03+00:00"
+        },
+        {
+            "name": "mdanter/ecc",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpecc/phpecc.git",
+                "reference": "ed5c6d496f5310de1b7071b8375fafa3559a1344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpecc/phpecc/zipball/ed5c6d496f5310de1b7071b8375fafa3559a1344",
+                "reference": "ed5c6d496f5310de1b7071b8375fafa3559a1344",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "fgrosse/phpasn1": "v2.0.x",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "squizlabs/php_codesniffer": "~2",
+                "symfony/yaml": "~2.6|~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mdanter\\Ecc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matyas Danter",
+                    "homepage": "http://matejdanter.com/",
+                    "role": "Author"
+                },
+                {
+                    "name": "Thibaud Fabre",
+                    "email": "thibaud@aztech.io",
+                    "homepage": "http://aztech.io",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Thomas Kerin",
+                    "email": "afk11@users.noreply.github.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "PHP Elliptic Curve Cryptography library",
+            "homepage": "https://github.com/phpecc/phpecc",
+            "keywords": [
+                "Diffie",
+                "ECDSA",
+                "Hellman",
+                "curve",
+                "ecdh",
+                "elliptic",
+                "nistp192",
+                "nistp224",
+                "nistp256",
+                "nistp384",
+                "nistp521",
+                "phpecc",
+                "secp256k1",
+                "secp256r1"
+            ],
+            "support": {
+                "issues": "https://github.com/phpecc/phpecc/issues",
+                "source": "https://github.com/phpecc/phpecc/tree/master"
+            },
+            "time": "2017-10-09T16:05:37+00:00"
+        },
+        {
+            "name": "pocketmine/binaryutils",
+            "version": "0.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/BinaryUtils",
+                "reference": "0abee38d4e2861621f262c79a2a3d699d8a697f4"
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "php-64bit": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.67",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\utils\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Classes and methods for conveniently handling binary data",
+            "time": "2021-01-15T14:19:13+00:00"
+        },
+        {
+            "name": "pocketmine/math",
+            "version": "0.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/Math",
+                "reference": "43057cb8c179a9859677b496a788db922fd5cfc3"
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "php-64bit": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.67",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\math\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "PHP library containing math related code used in PocketMine-MP",
+            "time": "2021-01-15T14:25:11+00:00"
+        },
+        {
+            "name": "pocketmine/nbt",
+            "version": "0.2.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/NBT",
+                "reference": "8567c65e8e099c2f7436cfea3d886b3dcd332283"
+            },
+            "require": {
+                "ext-zlib": "*",
+                "php": "^7.2 || ^8.0",
+                "php-64bit": "*",
+                "pocketmine/binaryutils": "^0.1.9"
+            },
+            "require-dev": {
+                "irstea/phpunit-shim": "^7.5 || ^8.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.85",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\nbt\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "pocketmine\\nbt\\": "tests/phpunit/"
+                }
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "PHP library for working with Named Binary Tags",
+            "time": "2021-12-16T01:15:41+00:00"
+        },
+        {
+            "name": "pocketmine/pocketmine-mp",
+            "version": "3.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/PocketMine-MP",
+                "reference": "aaa01bb6f87082fc4cf4c251c06f1a590d886f2e"
+            },
+            "require": {
+                "adhocore/json-comment": "^0.0.7",
+                "daverandom/callback-validator": "dev-master",
+                "ext-bcmath": "*",
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-date": "*",
+                "ext-hash": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "ext-phar": "*",
+                "ext-pthreads": ">=3.1.7dev",
+                "ext-reflection": "*",
+                "ext-sockets": "*",
+                "ext-spl": "*",
+                "ext-yaml": ">=2.0.0",
+                "ext-zip": "*",
+                "ext-zlib": ">=1.2.11",
+                "php": ">=7.2.0",
+                "php-64bit": "*",
+                "pocketmine/binaryutils": "^0.1.0",
+                "pocketmine/math": "^0.2.0",
+                "pocketmine/nbt": "^0.2.6",
+                "pocketmine/raklib": "^0.12.0",
+                "pocketmine/snooze": "^0.1.0",
+                "pocketmine/spl": "^0.3.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "src"
+                    ]
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "pocketmine\\": "tests/phpunit/"
+                }
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "A server software for Minecraft: Pocket Edition written in PHP",
+            "homepage": "https://pmmp.io",
+            "time": "2019-07-14T18:10:29+00:00"
+        },
+        {
+            "name": "pocketmine/raklib",
+            "version": "0.12.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/RakLib",
+                "reference": "fc1ccc8e61b9033e5372436b2e28a7a95388373f"
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-pthreads": ">=3.1.7dev",
+                "ext-sockets": "*",
+                "php": ">=7.2.0",
+                "php-64bit": "*",
+                "php-ipv6": "*",
+                "pocketmine/binaryutils": "^0.1.0",
+                "pocketmine/snooze": "^0.1.0",
+                "pocketmine/spl": "^0.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "raklib\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A RakNet server implementation written in PHP",
+            "time": "2019-05-02T14:53:51+00:00"
+        },
+        {
+            "name": "pocketmine/snooze",
+            "version": "0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/Snooze",
+                "reference": "92abf1e988c71635d466abb777f61f89e5a9c990"
+            },
+            "require": {
+                "ext-pthreads": "~3.2.0 || ^4.0",
+                "php-64bit": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.76",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pocketmine\\snooze\\": "src/"
+                }
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Thread notification management library for code using the pthreads extension",
+            "time": "2021-11-01T20:48:46+00:00"
+        },
+        {
+            "name": "pocketmine/spl",
+            "version": "0.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/SPL",
+                "reference": "88052c67d3df2cc2dc2d99ebeae3d7ede3fc64ab"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Standard library files required by PocketMine-MP and related projects",
+            "time": "2020-01-14T16:23:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ext-pthreads": 20,
+        "daverandom/callback-validator": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.0",
+        "php-64bit": "*",
+        "ext-bcmath": "*",
+        "ext-curl": "*",
+        "ext-crypto": "^0.3.1",
+        "ext-ctype": "*",
+        "ext-date": "*",
+        "ext-gmp": "*",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-pcre": "*",
+        "ext-phar": "*",
+        "ext-pthreads": ">=3.1.7dev",
+        "ext-reflection": "*",
+        "ext-sockets": "*",
+        "ext-spl": "*",
+        "ext-yaml": ">=2.0.0",
+        "ext-zip": "*",
+        "ext-zlib": ">=1.2.11"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
